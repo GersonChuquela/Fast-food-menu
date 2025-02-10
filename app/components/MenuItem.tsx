@@ -17,7 +17,7 @@ export default function MenuItem({ item }: { item: MenuItemType }) {
         className="w-full h-64 object-cover bg-cover"
       />
       <div className="p-4">
-        <h3 className="text-lg font-semibold">{item.name}</h3>
+        <h3 className="text-lg text-black font-semibold">{item.name}</h3>
         <p className="text-gray-600 text-sm mt-1">{item.description}</p>
         <p className="text-red-600 font-bold mt-2">
           {item.price.toFixed(2)} MT
